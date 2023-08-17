@@ -1,4 +1,14 @@
 
 .admin {
-    padding-top: 200px;
+    padding-top: 10px;
+}
+
+.admin .parent-container {
+    width: 350px;
+    border: 1px solid #bdbaba;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 40px;
+    text-align: left;
 }

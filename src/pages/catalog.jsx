@@ -45,9 +45,10 @@ function Catalog() {
 
   return (
     <div className="catalog page">
-      <h1>Check out our {products.length} amazing products in our catalog</h1>
-      <br />
+      <h1>Fresh products 1-click away</h1>
+      <h6>Our catalog has {products.length} products ready for you</h6>
 
+      <br />
       <button
         onClick={clearFilter}
         className="

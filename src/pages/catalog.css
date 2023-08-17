@@ -1,3 +1,13 @@
 .catalog .btn-filter {
     margin: 5px;
 }
+
+.catalog h1 {
+    margin-top: 5px;
+    color: rgb(40, 38, 38);
+}
+
+.catalog h5 {
+    font-size: 16px;
+    color: rgb(56, 59, 59);
+}
