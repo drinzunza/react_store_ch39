@@ -1,4 +1,4 @@
-# git
+# git commands
 
 # initialize a foldere as a git repo
 git init
@@ -12,7 +12,6 @@ git remote add origin <ULR>
 git add .
 git commit -m "ANY MESSAGE"
 git push -u origin master
-
 
 ### Push future times
 git add .
