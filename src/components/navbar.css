@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(23, 88, 116);
+}
+
+.navbar .user-info {
+    display: flex;
+    flex-direction: column;
+    color:#d6d6d6;
+    margin-right: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
+
+.navbar .btn-cart {
+    display: flex;
+    flex-direction: column;
+    color:#d6d6d6;
+    margin-right: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding: 3px 15px;
+}
