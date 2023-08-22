@@ -6,9 +6,24 @@ function GlobalState(props) {
   const [user, setUser] = useState({ name: 'Sergio', id: 123, email: 'sinzunza@sdgku.edu' });
 
   function addToCart(prod) {
-    // add prod to cart
     let copy = [...cart];
-    copy.push(prod);
+
+    let found = false;
+    // check if the product is already in cart
+    for (let i = 0; i < copy.length; i++) {
+      let prodInCart = copy[i];
+      if (prod.id === prodInCart.id) {
+        // already there
+        prodInCart.quantity += prod.quantity;
+        found = true;
+      }
+    }
+
+    // add prod to cart
+    if (!found) {
+      copy.push(prod);
+    }
+
     setCart(copy);
   }
 

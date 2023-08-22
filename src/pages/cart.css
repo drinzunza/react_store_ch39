@@ -3,3 +3,15 @@
 .cart {
 
 }
+
+.cart .parent {
+    display: flex;
+}
+
+.cart .parent .list {
+    flex: 3;
+}
+
+.cart .parent .side-menu {
+    flex: 1;
+}
